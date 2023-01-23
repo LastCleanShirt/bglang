@@ -1,0 +1,3 @@
+new GUI ; Comment
+set GUI winsize = 100x39
+$var = "variable"

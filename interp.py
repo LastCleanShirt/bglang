@@ -1,3 +1,5 @@
+from lexer import Lexer as L
+
 class Interpreter:
 	def __init__(self):
 		self.c = None
@@ -5,4 +7,5 @@ class Interpreter:
 
 	def run(self, c):
 		self.c = c
-		print(self.c)
+		self.l = L(self.c)
+		self.l.Lex()
